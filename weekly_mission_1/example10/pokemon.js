@@ -4,8 +4,19 @@
 //- la clase tiene la misma implementación que el ejercicio anterior
 //- ejecutar node.js
 
-//otro cambio para detectar modificaciones
 
-//haciendo mi primer branch
+export default class MyPokemon{
+    constructor (name) {
+      this.name = name
+    }
+    sayHello () {
+      console.log(`Mi pokemon ${this.name} te saluda!!!`);
+    }
+    sayMessage (message) {
+      console.log (`Mi pokemon ${this.name} dice: ${message}`);
+    }
+}
 
-// esto de hacer ramas parece fácil.
+//let Pokemon = new Object(); // crea un objeto 
+//    Pokemon.tipo='mounstruo'
+//export default {MyPokemon} 
